@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok" viewBox="0 0 16 16">
+        <path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3V0Z"/>
+      </svg>
+    <meta charset="UTF-8">
+    
+    <title>Contacto - Don Pollo</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+            <div class="caja">
+                <h1> <img src="Logo DonPollo.jpg" alt="Logo DonPollo" ></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+        
+        
+                </ul>
+
+            </nav>
+
+            </div>
+
+
+    </header>
+    <main>
+        <form>
+            <label for = "nombreapellido">Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron"required> 
+            <label for="correoelectronico">Correo Electrónico</label>
+            <input type="text" id="correoelectronico"class="input-padron"required placeholder="email@ejemplo.com">
+            <label for="telefono">Teléfono</label>
+            <input type="text" id="telefono"class="input-padron"required placeholder="xxx xxx xxxx">
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje"class="input-padron" required></textarea>
+
+            <fieldset>
+                <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+                <label class="emaill" for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email" >&#128233; Email</label>
+                
+
+                <label class="telelefono"for="radio-telefono"><input type="radio" name="contacto" value="email" id="radio-telefono" >&#128222;Telefono</label>
+                
+
+                <label class="tiktokk" for="radio-tiktok"><input type="radio" name="contacto" value="email" id="radio-tiktok" checked> <img class="tiktoki" src="tik-tok.png"></i>TikTok</label>
+                
+            </fieldset>
+            <fieldset>
+                <legend>¿A que hora suele ver a Don Pollo? &#129320;</legend>
+                <select>
+                    <option>En la mañana</option>
+                    <option>En la tarde </option>
+                    <option>En la noche</option>
+                </select>
+            </fieldset>
+            <label class="checkbox"><input type= "checkbox" checked>¿Le gustaría recibir mensajes coquetos de Don Pollo &#129397;?</label>
+
+            <input type="submit" name="contacto" value="Enviar formulario" class="enviar">
+
+
+        </form>
+        <table>
+            <thead>
+            <tr>
+                <th>Día</th>
+                <th>Horario</th>
+            </tr>
+        </thead>
+         <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>8:30pm - 9:00pm</td>
+                </tr>
+                <tr>
+                    <td>Martes</td>
+                    <td>10:00am - 01:00pm</td>
+                </tr>
+                <tr>
+                    <td>Sábados</td>
+                    <td>2:30pm - 5:00pm</td>
+                </tr>
+        </tbody>
+        </table>
+        
+
+    </main>
+    <footer>
+        <img src="Logo DonPollo.jpg" alt="Logo DonPollo">
+        <p class="Copyright">&copy Copyright Pagina de fans de Don Pollo - 2023</p>
+
+
+    </footer>
+    
+</html>

@@ -1,0 +1,42 @@
+.titulo-principal{
+    padding-left: 40%;
+}
+body{
+    background: #e22020;
+}
+#Koo{
+    width: 100%;
+}
+.principal{
+    background-color: rgb(165, 167, 168);
+    padding: 20px;
+}
+.titulo-centro{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+em strong{
+    color:red;
+}
+#mision{
+    font-size: 20px;
+}
+.ContenidodeDonPollo{
+    background-color:gold;
+}
+.items{
+    font-style: italic;
+}
+ul{
+    display:inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+.donpollogif{
+width: 40%;
+margin-right: 5%;
+}
